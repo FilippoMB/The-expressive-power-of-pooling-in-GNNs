@@ -1,9 +1,6 @@
 Official repository of the paper [The expressive power of pooling in Graph Neural Networks](https://arxiv.org/).
 
-<img src="./figs/framework.png" width="700" height="150">
-
-### The EXPWL1 dataset
-
+<img src="./figs/framework.png" width="523" height="235">
 
 
 ### Execution
@@ -17,6 +14,17 @@ None, 'diffpool', 'mincut', 'dmon', 'edgepool', 'graclus', 'kmis', 'topk', 'panp
 The code is based on [Pytorch Geometric](https://pytorch-geometric.readthedocs.io/) and was tested on:
 - torch v2.0.0
 - torch_geometric v2.3.0
+
+### The EXPWL1 dataset
+The dataset contains 1500 pairs of graphs $(\mathcal{G}_i, \mathcal{H_i})$, which are non-isomorphic and WL-1 distinguishable.
+A GNN as powerful as the WL-1 test should achieve approximately 100\% accuracy on this dataset.
+Two of the graph pairs in the dataset are displayed below.
+
+<img src="./figs/ex1.png" width="397" height="197">
+
+<img src="./figs/ex2.png" width="397" height="197">
+
+The dataset can be downloaded [here](https://github.com/FilippoMB/The-expressive-power-of-pooling-in-GNNs/tree/main/data/EXPWL1) and the Pytorch Geometric loader is in [utils.py](https://github.com/FilippoMB/The-expressive-power-of-pooling-in-GNNs/blob/0a25de158c336acab697398951d6d3a0fec1c6cf/scripts/utils.py#L30).
 
 ### Citation
 
