@@ -20,9 +20,15 @@ The dataset contains 1500 pairs of graphs $(\mathcal{G}_i, \mathcal{H_i})$, whic
 A GNN as powerful as the WL-1 test should achieve approximately 100\% accuracy on this dataset.
 Two of the graph pairs in the dataset are displayed below.
 
+---
+
 <img src="./figs/ex1.png" width="397" height="197">
 
+---
+
 <img src="./figs/ex2.png" width="397" height="197">
+
+---
 
 The dataset can be downloaded [here](https://github.com/FilippoMB/The-expressive-power-of-pooling-in-GNNs/tree/main/data/EXPWL1) and the Pytorch Geometric loader is in [utils.py](https://github.com/FilippoMB/The-expressive-power-of-pooling-in-GNNs/blob/0a25de158c336acab697398951d6d3a0fec1c6cf/scripts/utils.py#L30).
 
