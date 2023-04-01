@@ -13,7 +13,7 @@ rng = np.random.default_rng(1)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 parser = argparse.ArgumentParser(formatter_class=RawTextHelpFormatter)
-parser.add_argument('--pooling', type=str, default='comp-graclus',
+parser.add_argument('--pooling', type=str, default='mincut',
                     help="Options:\n None (no-pool)\n 'diffpool'\n 'mincut'\n" 
                     " 'dmon'\n 'edgepool'\n 'graclus'\n 'kmis'\n 'topk'\n 'panpool'\n"
                     " 'asapool'\n 'sagpool'\n 'dense-random'\n 'sparse-random'\n"
