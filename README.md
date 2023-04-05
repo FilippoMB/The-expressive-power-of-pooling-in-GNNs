@@ -1,4 +1,4 @@
-Official repository of the paper [The expressive power of pooling in Graph Neural Networks](https://arxiv.org/).
+Official repository of the paper [The expressive power of pooling in Graph Neural Networks](https://arxiv.org/abs/2304.01575).
 
 <img src="./figs/framework.png" width="523" height="235">
 
@@ -30,8 +30,17 @@ Two of the graph pairs in the dataset are displayed below.
 
 ---
 
-The dataset can be downloaded [here](https://github.com/FilippoMB/The-expressive-power-of-pooling-in-GNNs/tree/main/data/EXPWL1) and the Pytorch Geometric loader is in [utils.py](https://github.com/FilippoMB/The-expressive-power-of-pooling-in-GNNs/blob/0a25de158c336acab697398951d6d3a0fec1c6cf/scripts/utils.py#L30).
+The dataset can be downloaded [here](https://github.com/FilippoMB/The-expressive-power-of-pooling-in-GNNs/tree/main/data/EXPWL1) and loaded in Pytorch Geometric format using the loader in [utils.py](https://github.com/FilippoMB/The-expressive-power-of-pooling-in-GNNs/blob/0a25de158c336acab697398951d6d3a0fec1c6cf/scripts/utils.py#L30).
 
 ### Citation
 
 Please, consider citing our paper if you use this code or the dataset in your research.
+
+    @misc{bianchi2023expressive,
+          title={The expressive power of pooling in Graph Neural Networks}, 
+          author={Filippo Maria Bianchi and Veronica Lachi},
+          year={2023},
+          eprint={2304.01575},
+          archivePrefix={arXiv},
+          primaryClass={cs.LG}
+    }
