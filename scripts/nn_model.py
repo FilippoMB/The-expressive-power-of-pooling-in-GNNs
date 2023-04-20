@@ -6,6 +6,7 @@ from torch_geometric.nn import GINConv, MLP, DenseGINConv, PANConv
 from torch_geometric.nn import global_add_pool
 from torch_geometric.nn import TopKPooling, PANPooling, SAGPooling, ASAPooling, EdgePooling, graclus
 from torch_geometric.nn import dense_mincut_pool, dense_diff_pool, DMoNPooling
+from torch_geometric.nn.resolver import activation_resolver
 from torch_geometric.utils import to_dense_adj, to_dense_batch
 
 from scripts.sum_pool import sum_pool
@@ -33,7 +34,7 @@ class GIN_Pool_Net(torch.nn.Module):
         self.num_layers_pre = num_layers_pre
         self.num_layers_post = num_layers_post
         self.hidden_channels = hidden_channels
-        self.act = getattr(torch.nn, activation)()
+        self.act = activation_resolver(activation)
         self.pooling = pooling
         self.pool_ratio = pool_ratio
   
