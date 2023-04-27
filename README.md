@@ -10,7 +10,7 @@ In a nutshell, a graph pooling operator can be expressed as the composition of 3
 
 More details about the Select-Reduce-Connect framework can be found [here](https://arxiv.org/abs/2110.05292).
 
-If certain criteria are met on the GNN layers before pooling, on the $\texttt{SEL}$, and the $\texttt{RED}$ functions, then enough information is preserved in the coarsened graph.
+If certain conditions are met on the GNN layers before pooling, on the $\texttt{SEL}$, and the $\texttt{RED}$ functions, then enough information is preserved in the coarsened graph.
 In particular, if two graphs $\mathcal{G}_ 1$ and $\mathcal{G}_ 2$ are WL-distinguishable, their coarsened versions $\mathcal{G}_ {1_P}$ and $\mathcal{G}_{2_P}$ will also be WL-dinstinguishable.
 
 <img src="./figs/framework.png" width="523" height="235">
@@ -50,11 +50,13 @@ The dataset can be downloaded [here](https://github.com/FilippoMB/The-expressive
 
 Please, consider citing our paper if you use this code or the dataset in your research:
 
-    @misc{bianchi2023expressive,
-        title={The expressive power of pooling in Graph Neural Networks}, 
-        author={Filippo Maria Bianchi and Veronica Lachi},
-        year={2023},
-        eprint={2304.01575},
-        archivePrefix={arXiv},
-        primaryClass={cs.LG}
-    }
+````bibtex
+@misc{bianchi2023expressive,
+    title={The expressive power of pooling in Graph Neural Networks}, 
+    author={Filippo Maria Bianchi and Veronica Lachi},
+    year={2023},
+    eprint={2304.01575},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+````
