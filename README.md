@@ -1,7 +1,7 @@
 [![NIPS](https://img.shields.io/badge/NeurIPS-2023-blue)](https://neurips.cc/virtual/2023/poster/69873)
 [![arXiv](https://img.shields.io/badge/arXiv-2304.01575-b31b1b.svg?)](https://arxiv.org/abs/2304.01575)
 [![Poster](https://img.shields.io/badge/%E2%87%A9-Poster-%23228B22.svg)](https://github.com/FilippoMB/The-expressive-power-of-pooling-in-GNNs/tree/main/figs/GNN_pool_expressiveness.pdf)
-[![Video](https://img.shields.io/badge/Presentation-%23FF0000.svg?logo=YouTube&logoColor=white)]()
+[![Video](https://img.shields.io/badge/Presentation-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtu.be/YNg2FSm1zdI)
 
 Official repository of the paper *"The expressive power of pooling in Graph Neural Networks"* by F. M. Bianchi and V. Lachi presented at NeurIPS 2023.
 
